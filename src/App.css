@@ -1,0 +1,105 @@
+#root {
+  margin: 0 auto; 
+  padding: 2rem;  
+}
+
+#Page{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Header Section */
+#header1{
+  display: flex;
+  background-color: aliceblue;
+  position: absolute;
+  height: 60px;
+  top:0px;
+  left:0px;
+  width:100%;
+}
+#header1 h3{
+  color: black;
+  display: flex;
+  position: absolute;
+  top:-10px;
+  left:20px;
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
+ul{
+  display: flex;
+  color: black;
+  list-style-type: none;
+  position: absolute;
+  right:20px;
+  top:-15px;
+  cursor: pointer;
+
+}
+li{
+  margin: 20px;
+}
+/* DropDown */
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+  top: 100%;
+  background-color: aliceblue;
+  padding: 0;
+  min-width:max-content;
+  z-index: 1;
+  list-style-type: none;
+}
+
+.dropdown-content li {
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.dropdown-content li:hover {
+  background-color: #838c94;
+  color: aliceblue;
+}
+
+.dropdown1:hover .dropdown-content {
+  display: block;
+}
+
+.active-link{
+  border-bottom: 5px solid #838c94;
+  font-weight: bold;
+  color: black;
+}
+
+.listNav a {
+  color: black; /* or your desired default color */
+  text-decoration: none;
+}
+/* Footer  */
+#footer1{
+  display: flex;
+  background-color: rgb(131, 140, 148);
+  position: absolute;
+  height: 40px;
+  bottom:0px;
+  left:0px;
+  width:100%;
+}
+#footer1 h3{
+color: aliceblue;
+margin:auto auto;
+font-family: "Tagesschrift", system-ui;
+
+}
