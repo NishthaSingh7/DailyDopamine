@@ -21,16 +21,31 @@ function Header(){
                         <li>Account Details</li>
                     </ul>
                 </li>
+                  <li class="dropdown1">
+                    <span>
+                        <NavLink to ="/all" className={({isActive}) => isActive ? 'active-link':''}>Explore</NavLink>
+ </span>
+                    <ul class ="dropdown-content">
+                        <li>
+                        <NavLink to ="/timer" className={({isActive}) => isActive ? 'active-link':''}>Pomodoro Timer</NavLink>
+
+                        </li>
+                        <li>e2</li>
+                    </ul>
+                </li>
                 <li class="dropdown1">
-                    <span>Modes </span>
+                    <span>
+                 <NavLink to ="/themes" className={({isActive}) => isActive ? 'active-link':''}>Modes</NavLink>
+
+                    </span>
                     <ul class ="dropdown-content">
                         <li>Dark</li>
                         <li>Light</li>
                     </ul>
                 </li>
                 <li class="dropdown1">
-                    <span>                        <NavLink to ="/about" className={({isActive}) => isActive ? 'active-link':''}>About</NavLink>
-</span>
+                    <span>
+                        <NavLink to ="/about" className={({isActive}) => isActive ? 'active-link':''}>About</NavLink></span>
                     <ul class ="dropdown-content">
                         <li>Github</li>
                         <li>Contact</li>
