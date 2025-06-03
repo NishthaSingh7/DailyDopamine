@@ -19,10 +19,11 @@ function PTimer(){
 
         intervalRef.current = setInterval(()=>{
             setTimeLeft((prev) =>{
-                if(prev<=1){
+                if(prev<1){
                     clearInterval(intervalRef.current);
                     setIsRunning(false);
                     alert("Time's up !");
+                    setTimeLeft(5*60)
                     return 0;
                 }
                 return prev -1;
