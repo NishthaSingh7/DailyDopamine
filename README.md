@@ -3,6 +3,9 @@
 ## Project name
 DailyDopamine
 
+## Year
+2025
+
 ## Purpose
 An all-in-one productivity web app for daily focus, habits, and lightweight personal organization.
 
